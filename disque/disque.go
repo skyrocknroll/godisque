@@ -44,6 +44,7 @@ type jobWithCounters struct {
 	AdditionalDeliveries int64
 }
 
+//AddJobOptions options for AddJob
 type AddJobOptions struct {
 	Timeout   time.Duration
 	Replicate int
