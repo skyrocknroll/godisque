@@ -11,6 +11,7 @@ type client struct {
 	pools []*redis.Pool
 }
 
+//DisqueClientOptions has all the configuration for new connection
 type DisqueClientOptions struct {
 	// Password for Disque
 	Password string
