@@ -10,7 +10,7 @@ $ go get -u github.com/skyrocknroll/godisque
 
 ## Usage
 
-```
+```Go
 package main
 
 import (
