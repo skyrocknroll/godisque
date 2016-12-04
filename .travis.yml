@@ -14,4 +14,4 @@ before_install:
   - go get github.com/mattn/goveralls
 script:
 #  - go test -v ./disque
-  - $HOME/gopath/bin/goveralls -service=travis-ci -ignore=*example.go
+  - $HOME/gopath/bin/goveralls -service=travis-ci -ignore=examples/*
